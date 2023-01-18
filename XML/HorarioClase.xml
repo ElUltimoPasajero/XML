@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<horario>
+    <ciclo>DAM</ciclo>
+    <cuso>Primero</cuso>
+    <aula>Taller de administración</aula>
+    <dias>
+        <dia nombre="Lunes">
+            <asignatura hora="8:00-9:00">Sistemas</asignatura>
+            <asignatura hora="9:00-10:00">Bases De Datos</asignatura>
+            <asignatura hora="10:00-11:00">Programación</asignatura>          
+            <recreo     hora="11:00-11:30"></recreo>
+            <asignatura hora="11:30-12:30">Entornos</asignatura>
+            <asignatura hora="12:30-13:30">Fol</asignatura>
+            <asignatura hora="13:30-14:30">Marcas</asignatura>
+
+
+        </dia>
+    </dias>
+    <modulos>
+        <modulo nombre="LM">
+            <horas>
+                <hora dia="Lunes">9:00</hora>
+                <hora dia="Miercoles">10;00</hora>
+                <hora dia="Miercoles">11:30</hora>
+                <hora dia="Lunes">9:00</hora>
+                <hora dia="Miercoles">10;00</hora>
+                <hora dia="Miercoles">11:30</hora>
+                   
+            </horas>
+        </modulo>
+        
+        <modulo nombre="Prog">
+          
+            <horas>
+                <hora dia="Lunes">9:00</hora>
+                <hora dia="Miercoles">10;00</hora>
+                <hora dia="Miercoles">11:30</hora>
+                <hora dia="Lunes">9:00</hora>
+                <hora dia="Miercoles">10;00</hora>
+                <hora dia="Miercoles">11:30</hora>
+                   
+            </horas>
+        </modulo>
+    </modulos>
+    
+</horario>
+
