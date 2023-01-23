@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<factura numero="999">
+    <datos_empresa>
+        <nombre>Equipos dititales S.L.</nombre>
+        <via tipo="Calle">Av.Valladolid</via>
+        <ciudad>Madrid</ciudad>
+        <cp>28015</cp>
+        <cif>q-9876543</cif>
+        <telefono>917776688</telefono>
+        <fecha>12-01-2005</fecha>
+        <numero-pedido>731</numero-pedido>
+        <tipo-pago>efectivo</tipo-pago>
+    </datos_empresa>
+    <datos-cliente numero="879">
+        <nombre>Dario Bueno Gutierrez</nombre>
+        <direccion-envio tipo="calle">Av. Oporto nº7 4ºD</direccion-envio>
+        
+    </datos-cliente>
+</factura>
+
