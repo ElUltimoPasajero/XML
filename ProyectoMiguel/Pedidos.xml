@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<pedido>
+    <cliente>Francisco Romero</cliente>
+    <contenido>PlayStation5</contenido>
+    <entrega>
+        <calle>Huerta</calle>
+        <numero>3</numero>
+        <piso>1</piso>
+        <letra>b</letra>
+        <fecha>19/1/23></fecha>
+    </entrega>
+    
+</pedido>
+
