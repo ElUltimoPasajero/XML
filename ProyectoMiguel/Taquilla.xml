@@ -4,9 +4,25 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to c
 Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
 -->
 
+<recaudacionglobal>
 
-
-<taquilla>
-    
+    <taquillas>
+<taquilla moneda="€">
+    <pais>España</pais>
+    <fecha_inicial>25/12/23</fecha_inicial>
+    <fecha_final>27/12/23</fecha_final>
+    <peliculas>
+        <pelicula pos="1">+
+            <titulo></titulo>
+            <genero></genero>
+            <semana></semana>
+            <recaudacion></recaudacion>
+            <recaudacion_total></recaudacion_total>
+            <url></url>
+            
+        </pelicula>
+        
+    </peliculas>
 </taquilla>
-
+</taquillas>
+</recaudacionglobal>
