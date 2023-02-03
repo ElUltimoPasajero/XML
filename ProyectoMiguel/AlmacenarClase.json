@@ -1,0 +1,17 @@
+{
+        "categoria":"junior",
+        "nombre":"Miguel",
+        "apellido":"Navas",
+        "dni":"22344324",
+        "domicilio":"jgdjhgfdajg",
+        "cp": "234432",
+        "ciudad":"Malaga",
+        "puesto":{
+            "codigo":"324",
+            "decripcion":"324234",
+            "sueldo":123123
+            
+        }
+        
+     }
+

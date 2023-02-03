@@ -1,0 +1,42 @@
+{
+  
+"informacion":{
+    "ciclo":"DAM",
+        "curso":"1º",
+        "tutor":"Jon"
+    },
+    "modulo":{},
+    "nombre":"lenguaje de Marcas",
+    "profesor":"Francisco",
+    "estadisticas":{
+        "aprobados":30,
+        "suspensos":0
+        
+    },
+       "alumnos":[
+    {
+    "nombre":"Miguel",
+    "nota_t1":"10",
+    "nota_t2":"9",
+    "nota_t3":"9",
+    "notas":[10,9,10]
+        },
+    {
+    "nombre":"Miguel",
+    "nota_t1":"10",
+    "nota_t2":"9",
+    "nota_t3":"9",
+    "notas":[10,9,10]}
+    
+    
+    
+    
+    
+    ]     
+         }  
+    
+    
+    
+    
+    
+
