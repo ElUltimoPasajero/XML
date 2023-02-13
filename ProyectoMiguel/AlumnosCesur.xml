@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE cesur[
+<!ELEMENT cesur (alumnos,profesores) >
+ 
+<!ELEMENT alumnos (alumno+) >
+<!ELEMENT alumno ( contacto, info) >
+
+<!ELEMENT contacto (nombre, apellidos) >
+<!ELEMENT nombre (#PCDATA) >
+<!ELEMENT apellidos (#PCDATA) >
+
+<!ELEMENT info (ciclo, matriculacion, modulo+) >
+<!ELEMENT ciclo (#PCDATA) >
+<!ELEMENT matriculacion (#PCDATA) >
+
+<!ELEMENT modulo (nombre, ciclo?) >
+<!ATTLIST modulo ciclo CDATA #IMPLIED >
+
+
+<!ELEMENT profesores (profesor+) >
+<!ELEMENT profesor (contacto, modulo+) >
+
+
+
+
+
+]>
+
+<cesur>
+
+    <alumnos>
+        <alumno>
+            <contacto>
+                <nombre></nombre>
+                <apellidos></apellidos>
+            </contacto>
+            <info>
+               
+                <ciclo></ciclo>
+                <matriculacion></matriculacion>
+                <modulo>
+                    <nombre></nombre>
+                    <ciclo></ciclo>
+                </modulo>
+                  
+                    <modulo>
+                        <nombre></nombre>
+                        <ciclo></ciclo>
+                    </modulo>
+             
+            </info>
+        </alumno>
+        
+    </alumnos>
+    <profesores>
+        <profesor>
+            <contacto>
+                <nombre></nombre>
+                <apellidos></apellidos>
+               
+            </contacto>
+        </profesor>
+    </profesores>
+</cesur>

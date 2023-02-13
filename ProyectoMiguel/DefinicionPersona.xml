@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE personas[
+
+<!ELEMENT personas (persona+) >
+
+<!ELEMENT persona (nombre,apellidos,email+,parentesco) >
+<!ATTLIST persona dni CDATA #IMPLIED >
+<!ATTLIST persona edad CDATA #IMPLIED > 
+<!ELEMENT nombre (#PCDATA) >
+<!ELEMENT apellidos (#PCDATA) >
+<!ELEMENT email (#PCDATA) >
+<!ELEMENT parentesco (#PCDATA) >
+
+
+
+]>
+
+
+
+
+<personas>
+    <persona dni="2432" edad="14">
+        <nombre>Pepito</nombre>
+        <apellidos>Palotes Perez</apellidos>
+        <email>iuhgdiashdkjash@gamd.com</email>
+        <email>jnsldfjdslkjf@hotmail.com</email>
+        <email>kjdhakjshd@jkds.com</email>
+        <email>nalkjdsalkjds@hotpapa.es</email>
+        <parentesco>Primo</parentesco>
+    </persona>
+    <persona dni="2343243" edad="39">
+        <nombre>Toni</nombre>
+        <apellidos>Soprano</apellidos>
+        <email>324234@hotmail.com</email>
+        <parentesco>Papa</parentesco>
+    </persona>
+    
+</personas>
+
