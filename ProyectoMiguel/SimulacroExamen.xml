@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE clase [  
+<!ELEMENT clase (alumnos) >
+<!ELEMENT alumnos (alumno)* >
+<!ELEMENT alumno (nombre,apellidos,dni,modulos) >
+<!ELEMENT nombre (#PCDATA)> 
+<!ELEMENT apellidos (#PCDATA)> 
+<!ELEMENT dni (#PCDATA)> 
+<!ELEMENT modulos (modulo)* >
+<!ELEMENT modulo (nombre_mod,calificacion) >
+<!ELEMENT nombre_mod (#PCDATA) >
+<!ELEMENT calificacion (#PCDATA) >
+
+
+]>
+
+
+
+<clase>
+    <alumnos>
+        <alumno>
+            <nombre>Miguel</nombre>
+            <apellidos>Navas</apellidos>
+            <dni>24324234k</dni>
+            <modulos>
+                <modulo>
+                    <nombre_mod>Dam</nombre_mod>
+
+                    <calificacion>8</calificacion>
+                 
+                </modulo>
+                <modulo>
+                    <nombre_mod>Programacion</nombre_mod>
+
+                    <calificacion>8</calificacion>
+                 
+                </modulo>
+                <modulo>
+                    <nombre_mod>Fol</nombre_mod>
+
+                    <calificacion>7</calificacion>
+                 
+                </modulo>
+                <modulo>
+                    <nombre_mod>Sistemas</nombre_mod>
+
+                    <calificacion>6</calificacion>
+                 
+                </modulo>
+                <modulo>
+                    <nombre_mod></nombre_mod>
+
+                    <calificacion></calificacion>
+                 
+                </modulo>
+            </modulos>
+        </alumno>
+         <alumno>
+            <nombre>Pepe</nombre>
+            <apellidos>Popo</apellidos>
+            <dni>243243244k</dni>
+            <modulos>
+                <modulo>
+                    <nombre_mod>Dam</nombre_mod>
+
+                    <calificacion>5</calificacion>
+                 
+                </modulo>
+                <modulo>
+                    <nombre_mod></nombre_mod>
+
+                    <calificacion></calificacion>
+                 
+                </modulo>
+                <modulo>
+                    <nombre_mod>Fol</nombre_mod>
+
+                    <calificacion>7</calificacion>
+                 
+                </modulo>
+                <modulo>
+                    <nombre_mod></nombre_mod>
+
+                    <calificacion></calificacion>
+                 
+                </modulo>
+                <modulo>
+                    <nombre_mod>Marcas</nombre_mod>
+
+                    <calificacion>8</calificacion>
+                 
+                </modulo>
+            </modulos>
+        </alumno>
+    </alumnos>
+    
+</clase>
+
